@@ -10,6 +10,13 @@ class ViewController: UIViewController {
         view.addSubview(label)
         
         label.frame = view.frame
+        
+        let label2 = UILabel()
+        label2.text = "Hello label 2"
+        
+        view.addSubview(label2)
+        
+        label2.frame = view.frame
     }
 
 
